@@ -1,10 +1,12 @@
 def string_methods():
-    
+
     nombre = "   Grace Hopper   "
     frase = "Python es un gran lenguaje de programacion"
     multilinea = """Linea 1
 Linea 2
 Linea 3"""
+
+
     print(f"Strip: {nombre.strip()}")
     print(f"Lstrip: {nombre.lstrip()}")
     print(f"Rstrip: {nombre.rstrip()}")
@@ -22,5 +24,4 @@ Linea 3"""
     print(f"Paso: {frase[:6:2]}")
     print(f"Reverso: {frase[:6][::-1]}")
     print(f"Formato: {nombre.strip()} sabe Python")
-    multilinea= "Linea 1\nLinea 2\nLinea 3"
     print(multilinea)
